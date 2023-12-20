@@ -1,4 +1,4 @@
-FROM java:11
+FROM openjdk
 WORKDIR /
 COPY . .
 EXPOSE 8000
